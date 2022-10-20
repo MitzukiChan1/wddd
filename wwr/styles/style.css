@@ -1,24 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto:wght@300&display=swap');
 
-#content {max-width: 1600px;
+
+.home-title {
+    font-family: 'Quicksand', 'Roboto', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;}
+.book, .join {
+    font-size: 18px;
+    margin-top: 50px;
+}
+.msg p{ font-size: .8em;
+    padding-bottom: 15px;}
+
+.msg{ line-height: 1.5em;
+    padding: 35px;}
+
+#logo_link{   padding-top: 5px;}
+
+.icon{  padding-top: 10px;}
+footer .social img{
+    padding-top: 15px;}
+.rivers-card, .camping-card, .rapids-card{ 
+    margin: 200px 0;}
+
+    #content {max-width: 1600px;
     margin: 0 auto;}
 nav{text-align: center;
-color: #eefcce;}
+color: #d6cefc;}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;}
 
 #background {
     height: 725px;
 }
 
 nav a{text-align: center;
-    text-decoration: none;}
+    text-decoration: none;
+    padding: 35px;}
 
-nav a:hover{color: #eefcce;}
+nav a:hover{color: #fcd9ce;}
 .home-title{color: #168bda;}
 
 #Hero-msg {text-align: center;
 }
 h1 {text-align: center;
 }
-.msg h2{color: #eefcce;}
+h2{margin: 0;
+    color: #168bda;}
 .msg p{color: #eefcce;}
 
 #Hero-msg{text-align: center;}
@@ -26,7 +59,8 @@ h4 {text-align: center;
 }
 h4 {text-align: center;
 color: #168bda;}
-#hero-img.icon {width: 100%;}
+#hero-img.icon {width: 100%;
+    padding-top: 10px;}
 .button-box{text-align: center;
 }
 
@@ -35,22 +69,30 @@ main section{text-align: center;
 
 
 body{
-    background-color: rgb(250, 250, 250);}
+    background-color: rgb(250, 250, 250);
+    margin: 0;
+    padding: 0;}
 
 header{background-color:#9eb25d;}
 
 nav a:hover {background-color: #3c5209;}
 .book{background-color:#36d377;
-color: #eefcce;
-text-decoration: none;}
+color: #fce4ce;
+text-decoration: none;
+padding: 15px 30px;
+border-radius: 5px;}
 .join {background-color:#9eb25d;
 color: #cecffc;
-text-decoration: none;}
+text-decoration: none;
+padding: 15px 30px;
+border-radius: 5px;}
 .book:hover, .join:hover{background-color: brown;
 color: #12e06f;}
 #background{background-color: #9eb25d  ;}
 .msg{background-color: #9eb25d;}
-footer{background-color: #9eb25d;}
+footer{background-color: #9eb25d;
+    padding: 25px 50px;
+    margin-top: 200px;}
 footer p a:hover {
     text-decoration: underline;
 }    
